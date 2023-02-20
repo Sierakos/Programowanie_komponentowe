@@ -12,8 +12,8 @@ public class Tests {
 
     @Test
     public void testFontSetter() {
-        calc.setTextAreaFont(new Font("Calibri", Font.PLAIN, 12));
-        assertEquals(calc.getTextAreaFont(),new Font("Calibri", Font.PLAIN, 12));
+        calc.setTextAreaFont(new Font("Helvetica", Font.PLAIN, 12));
+        assertEquals(calc.getTextAreaFont(),new Font("Helvetica", Font.PLAIN, 12));
     }
     @Test
     public void testTextSetter() {
